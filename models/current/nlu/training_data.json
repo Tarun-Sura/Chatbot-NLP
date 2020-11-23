@@ -1,0 +1,1861 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hihi"
+      },
+      {
+        "intent": "greet",
+        "text": "sup"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I am good, how are you doing?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm fine, how are you?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm good, how are you?"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I am doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm fine"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm good"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 28,
+            "value": "Programming Language",
+            "entity": "category"
+          }
+        ],
+        "text": "what is Programming Language?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Program",
+            "entity": "category"
+          }
+        ],
+        "text": "what is Program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "program",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Project",
+            "entity": "category"
+          }
+        ],
+        "text": "what is Project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "project",
+            "entity": "cateogry"
+          }
+        ],
+        "text": "what is a project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 9,
+            "end": 26,
+            "value": "scratch interface",
+            "entity": "category"
+          }
+        ],
+        "text": "whats is scratch interface?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "draw square",
+            "entity": "category"
+          }
+        ],
+        "text": "how to draw square?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "draw rectangle",
+            "entity": "category"
+          }
+        ],
+        "text": "how to draw rectangle?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "what is sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "stage",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a stage?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "stage",
+            "entity": "category"
+          }
+        ],
+        "text": "what is stage?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "script",
+            "entity": "category"
+          }
+        ],
+        "text": "what is script?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "script",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a script?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "script area",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a script area?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "script Area",
+            "entity": "category"
+          }
+        ],
+        "text": "what is script Area?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "motion Block",
+            "entity": "category"
+          }
+        ],
+        "text": "what is motion Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "looks Block",
+            "entity": "category"
+          }
+        ],
+        "text": "what is looks Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "sound Block",
+            "entity": "category"
+          }
+        ],
+        "text": "what is sound Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "pen Block",
+            "entity": "category"
+          }
+        ],
+        "text": "what is pen Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "block Palette",
+            "entity": "category"
+          }
+        ],
+        "text": "what is block Palette?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "scratch program",
+            "entity": "category"
+          }
+        ],
+        "text": "what is scratch program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "add Sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "how to add Sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "add Costume",
+            "entity": "category"
+          }
+        ],
+        "text": "how to add Costume?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "use costumes",
+            "entity": "category"
+          }
+        ],
+        "text": "how to use costumes?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 17,
+            "end": 37,
+            "value": "programming Language",
+            "entity": "category"
+          }
+        ],
+        "text": "what is meant by programming Language?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "program",
+            "entity": "category"
+          }
+        ],
+        "text": "what is meant by program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "project",
+            "entity": "category"
+          }
+        ],
+        "text": "what do know about project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "program",
+            "entity": "category"
+          }
+        ],
+        "text": "what do know about program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "project",
+            "entity": "category"
+          }
+        ],
+        "text": "what do know about project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "programming Language",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me something about programming Language"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "program",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me something about program"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "project",
+            "entity": "category"
+          }
+        ],
+        "text": "Tell me something about project"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "project",
+            "entity": "category"
+          }
+        ],
+        "text": "What is the definition of project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "project",
+            "entity": "category"
+          }
+        ],
+        "text": "project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "program",
+            "entity": "category"
+          }
+        ],
+        "text": "program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "programming Language",
+            "entity": "category"
+          }
+        ],
+        "text": "programming Language?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "scratch interface",
+            "entity": "category"
+          }
+        ],
+        "text": "scratch interface?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "stage",
+            "entity": "category"
+          }
+        ],
+        "text": "stage?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "script",
+            "entity": "category"
+          }
+        ],
+        "text": "script?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "script area",
+            "entity": "category"
+          }
+        ],
+        "text": "script area?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "sotion Block",
+            "entity": "category"
+          }
+        ],
+        "text": "sotion Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "looks Block",
+            "entity": "category"
+          }
+        ],
+        "text": "looks Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sound Block",
+            "entity": "category"
+          }
+        ],
+        "text": "sound Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "pen Block",
+            "entity": "category"
+          }
+        ],
+        "text": "pen Block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "block Palette",
+            "entity": "category"
+          }
+        ],
+        "text": "block Palette?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "scratch program",
+            "entity": "category"
+          }
+        ],
+        "text": "scratch program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "add sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "add sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "add costume",
+            "entity": "category"
+          }
+        ],
+        "text": "add costume?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "use costumes",
+            "entity": "category"
+          }
+        ],
+        "text": "use costumes?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "change costumes",
+            "entity": "category"
+          }
+        ],
+        "text": "change costumes?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "draw square",
+            "entity": "category"
+          }
+        ],
+        "text": "draw square?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "draw a square",
+            "entity": "category"
+          }
+        ],
+        "text": "draw a square?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "draw rectangle",
+            "entity": "category"
+          }
+        ],
+        "text": "draw rectangle?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "draw a rectangle",
+            "entity": "category"
+          }
+        ],
+        "text": "draw a rectangle?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "string",
+            "entity": "category"
+          }
+        ],
+        "text": "string?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "run a program",
+            "entity": "category"
+          }
+        ],
+        "text": "How to run a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "pen",
+            "entity": "category"
+          }
+        ],
+        "text": "what is penblock?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "looks",
+            "entity": "category"
+          }
+        ],
+        "text": "what is looksblock?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "run",
+            "entity": "category"
+          }
+        ],
+        "text": "run?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "pen",
+            "entity": "category"
+          }
+        ],
+        "text": "pen?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "looks",
+            "entity": "category"
+          }
+        ],
+        "text": "looks?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "change costume",
+            "entity": "category"
+          }
+        ],
+        "text": "How to change costumeof a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "change costume",
+            "entity": "category"
+          }
+        ],
+        "text": "change costume?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 33,
+            "value": "costume of a sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change costume of a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "change the costume",
+            "entity": "category"
+          }
+        ],
+        "text": "how do we change the costume?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "change costume",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change costume?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "a sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "running",
+            "entity": "category"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "execution",
+            "entity": "category"
+          }
+        ],
+        "text": "what is running or execution?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "draw a square",
+            "entity": "category"
+          }
+        ],
+        "text": "write a program to draw a square?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "motion block",
+            "entity": "category"
+          }
+        ],
+        "text": "motion block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "new sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "new sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "motion block",
+            "entity": "cateogry"
+          }
+        ],
+        "text": "what instruction does the motion block contain?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "looks block",
+            "entity": "category"
+          }
+        ],
+        "text": "what instruction does the looks block contain?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "pen block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the pen block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "backdrop",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the backdrop do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "looks block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the looks block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "motion block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the motion block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "change the background",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change the background?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "change the backdrop",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change the backdrop?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "surprise sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a surprise sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "sound block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the sound block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "a stage",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a stage?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "pen block",
+            "entity": "category"
+          }
+        ],
+        "text": "Define pen block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "motion block",
+            "entity": "category"
+          }
+        ],
+        "text": "define motion block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "looks block",
+            "entity": "category"
+          }
+        ],
+        "text": "define looks block>"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "sound block",
+            "entity": "category"
+          }
+        ],
+        "text": "define sound block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 25,
+            "end": 38,
+            "value": "draw a square",
+            "entity": "category"
+          }
+        ],
+        "text": "write the instruction to draw a square?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "new sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "how to add a new sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "execute a program",
+            "entity": "category"
+          }
+        ],
+        "text": "how to execute a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "scratch",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a scratch?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "scratch",
+            "entity": "category"
+          }
+        ],
+        "text": "what is scratch?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "execution",
+            "entity": "category"
+          }
+        ],
+        "text": "what is execution of a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 50,
+            "end": 68,
+            "value": "change the costume",
+            "entity": "category"
+          }
+        ],
+        "text": "Under which block do you find the instructions to change the costume of a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "trail",
+            "entity": "category"
+          }
+        ],
+        "text": "which block shows the trail of the sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "size",
+            "entity": "category"
+          }
+        ],
+        "text": "what should we do to decrease the size of the sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 34,
+            "end": 38,
+            "value": "size",
+            "entity": "category"
+          }
+        ],
+        "text": "what should we do to increase the size of the sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "change the background",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change the backgroundof stage?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "change background",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change background?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "paint editor",
+            "entity": "category"
+          }
+        ],
+        "text": "what is paint editor used ?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "no instruction",
+            "entity": "category"
+          }
+        ],
+        "text": "why is there no instruction in motion block when the stage is selected?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "no instructions",
+            "entity": "category"
+          }
+        ],
+        "text": "why are there no instructions under motion block when the backdrop is selected?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "no instructions",
+            "entity": "category"
+          }
+        ],
+        "text": "why is that there are no instructions in motion block when the background is selected?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "backdrop",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a backdrop?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "background",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a background?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "conversation",
+            "entity": "category"
+          }
+        ],
+        "text": "program to show the conversation between two sprites?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 49,
+            "end": 60,
+            "value": "sprite move",
+            "entity": "category"
+          }
+        ],
+        "text": "which block do you find instructions to make the sprite move?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "character",
+            "entity": "category"
+          }
+        ],
+        "text": "In scratch, any character on the stage is called as?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "write the script",
+            "entity": "category"
+          }
+        ],
+        "text": "Where do you write the script for the sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "trail",
+            "entity": "category"
+          }
+        ],
+        "text": "which command is used to see the trail of the sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "save",
+            "entity": "category"
+          }
+        ],
+        "text": "how to save the scratch project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "control block",
+            "entity": "category"
+          }
+        ],
+        "text": "Explain control block and its uses?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "draw a square",
+            "entity": "category"
+          }
+        ],
+        "text": "write a program to draw a square without repeat?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "save",
+            "entity": "category"
+          }
+        ],
+        "text": "how to save a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "control block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the control block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 28,
+            "value": "change the background",
+            "entity": "category"
+          }
+        ],
+        "text": "how to change the background?"
+      },
+      {
+        "intent": "news",
+        "text": "how to make the sprite [repeat] (category)some action?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "repeat",
+            "entity": "category"
+          }
+        ],
+        "text": "how do repeat help in the execution of a program?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "signs",
+            "entity": "category"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "symbols",
+            "entity": "category"
+          }
+        ],
+        "text": "draw the signs or symbols for save, delete,duplicate and green flag?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "size",
+            "entity": "category"
+          }
+        ],
+        "text": "how do you make the size of the sprite small?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "control block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the control block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "sprite talk",
+            "entity": "category"
+          }
+        ],
+        "text": "which block can make the sprite talk?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "flag",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the green flag do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "red button",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the red button do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "control block",
+            "entity": "category"
+          }
+        ],
+        "text": "why do we use control block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "save",
+            "entity": "category"
+          }
+        ],
+        "text": "what are the steps to save a project?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "see",
+            "entity": "category"
+          }
+        ],
+        "text": "where do you see stories,games and animation come alive ?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "trail",
+            "entity": "category"
+          }
+        ],
+        "text": "To see the trail of the sprite, which command do we use?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "move",
+            "entity": "category"
+          }
+        ],
+        "text": "move 10 steps can be found under which block?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "sprite wait",
+            "entity": "category"
+          }
+        ],
+        "text": "what should we use to make the sprite wait for few seconds?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 56,
+            "end": 66,
+            "value": "background",
+            "entity": "category"
+          }
+        ],
+        "text": "using whick block can we use to change the looks of the background?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "sprite talk",
+            "entity": "category"
+          }
+        ],
+        "text": "how to make the sprite talk?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "add sound",
+            "entity": "category"
+          }
+        ],
+        "text": "how to add sound to a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "sprite talk",
+            "entity": "category"
+          }
+        ],
+        "text": "how to make the sprite talk?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "sprite speak",
+            "entity": "category"
+          }
+        ],
+        "text": "how to make the sprite speak?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "sprite move",
+            "entity": "category"
+          }
+        ],
+        "text": "how to make the sprite move?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "change colour",
+            "entity": "category"
+          }
+        ],
+        "text": "how to make the sprite change colour?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "looks block",
+            "entity": "category"
+          }
+        ],
+        "text": "what does the looks block do?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "sprite wait",
+            "entity": "category"
+          }
+        ],
+        "text": "which instruction makes the sprite wait?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "command",
+            "entity": "category"
+          }
+        ],
+        "text": "what is a command?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "commands",
+            "entity": "category"
+          }
+        ],
+        "text": "what are commands?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "aquarium",
+            "entity": "category"
+          }
+        ],
+        "text": "write a program to show the aquarium?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "draw a sprite",
+            "entity": "category"
+          }
+        ],
+        "text": "how to draw a sprite?"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "icons",
+            "entity": "category"
+          }
+        ],
+        "text": "what is the meaning of different icons in scratch?"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "gracious"
+      },
+      {
+        "intent": "thanks",
+        "text": "No, I am good as of now. Bye"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye"
+      },
+      {
+        "intent": "bye",
+        "text": "Bbye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "see you later"
+      },
+      {
+        "intent": "bye",
+        "text": "cya"
+      },
+      {
+        "intent": "bye",
+        "text": "ciao"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
