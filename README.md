@@ -2,14 +2,14 @@
 
 Created chatbot which can answer the users questions using open source libraries and deployed on Slack.
 
-## Programming language used:
+## Programming language
 - Python
 
-## libraries required
+## libraries
 - Rasa core
 - Rase nlu
 - spaCy
-
+-
 ## Deployement enviroment
 - Slack
 
